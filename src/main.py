@@ -1,6 +1,6 @@
 # main.py
 from fastapi import FastAPI, HTTPException
-from model import EmailRequest
+from src.model import EmailRequest  
 import os
 import requests
 from dotenv import load_dotenv
